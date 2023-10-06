@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 46;
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+}
+
+a {
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+}
