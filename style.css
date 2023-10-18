@@ -5,16 +5,34 @@ body {
 
 h1 {
     color: white;
-    font-size: 46;
+    font-size: 2em;
     text-decoration: none;
     margin: 20px;
     display: block;
 }
 
 a {
-    color: white;
-    font-size: 26px;
-    text-decoration: none;
-    margin: 20px;
     display: block;
+    margin: 20px;
+    font-size: 1.5em;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(189, 189, 189);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(107, 91, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
