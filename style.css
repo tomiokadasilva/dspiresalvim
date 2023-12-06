@@ -34,7 +34,8 @@ h3 {
 .link {
   display:inline;
   font-size: 1em;
-  margin: auto;
+  margin: 20px auto;
+  padding-bottom: 20px;
   font-weight: bold;
   color: white;
 }
