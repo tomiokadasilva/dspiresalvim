@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.desafio {
+    margin: 0px 400px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    margin: 10px;
+    border: 2px solid #333;
+    background-color: transparent;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: #ffffff;
+    transform: scale(1.1    );
+}
+
+/* Cores de fundo diferentes para cada caixa */
+.box:nth-child(1) {
+    background-color: #FFCCCC;
+}
+
+.box:nth-child(2) {
+    background-color: #CCFFCC;
+}
+
+.box:nth-child(3) {
+    background-color: #CCCCFF;
+}
